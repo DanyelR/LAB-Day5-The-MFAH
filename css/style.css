@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*outline: 1px solid red;*/
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+h1{
+	height: 36px;
+}
+h2{
+	height: 30px;
+}
+
+h3{
+	height: 40px;
+}
+.cont{
+	margin: auto;
+	border: 30px solid grey;
+	border-top: none;
+	padding-left: 3%;
+	position: relative;
+}
+
+.encab{
+	display: flex;
+	height:50px;
+	background-color: #2E2E2E;
+}
+.imgen1{
+	width: 15%;
+}
+.imgen2{
+	width: 55%;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	height:50px;
+	background-color: #2E2E2E;
+	color: white;
+	align-items: center;
+	padding-right: 50%;
+}
+
+
+.tag{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	line-height: 200%;
+	align-items: center;
+	margin-left: 5%
+	
+}
+.tag1{
+	background-color: #F2F5A9;
+	color: #3E7FBB;
+	width: 15%;	
+	text-align: center;
+}
+.tag2{
+	background-color: #3E7FBB;
+	width: 60%;
+	font-size: 80%;
+	text-align: center;
+}
+.secc{
+	display: flex;
+	margin-top: 5%;
+}
+.sectext{
+	width: 70%;
+}
+.gallery{
+	width:30%;
+}
+.galup{
+	font-size: 150%;
+}
+.galsec{
+	display: flex;
+	margin: 2%;	
+}
+.galtext{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	font-size: 70%;		
+}
+.galheader{
+	color: grey;
+}
+
+.galtitle{
+	color: #3E7FBB;
+}
+
+.galdate{
+	color: #333333;
+}
+.view{
+	text-align: right;
+	margin-right: 25%;
+	color: #3E7FBB;
+}
+.dos{
+	display: flex;
+	flex-direction: column;
+}
+.tres{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%
+}
+.learn{
+	color: #3E7FBB;
+}
+.img3{
+	width: 30%;
+}
+.img4{
+	margin-top: 2%;
+}
+.cuatro{
+	margin-top: 3%;
+}
+.cont4{
+	display: flex;
+	width:70%;
+}
+.four{
+	padding-left: 2%
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	font-size: 80%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.fixedblue{
+	position: fixed;
+	display: flex;	
+	width: 400px;
+	height: 100px;
+	right: 0px;
+	bottom: 200px;
+	background-color: #3E7FBB;
+}
+.icons{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.icon1{
+	width: 40px;
+	color: #DB4B38;
+}
+.icon2{
+	width: 40px;
+	color: #DB4B38;
+}
+.textbox{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: center;
+	align-items: flex-start;
+}
+.search{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
